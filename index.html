@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PFR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<!-- =========== NAVBAR =========== -->
+	<nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://pittsfamilyracing.000webhostapp.com/">PFR</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="https://pittsfamilyracing.000webhostapp.com/">Home</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">NASCAR <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="CupSeries.html">Cup Series</a></li>
+                  <li><a href="XfinitySeries.html">Xfinity Series</a></li>
+                  <li><a href="TruckSeries.html">Truck Series</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header">Links</li>
+                  <li><a href="http://www.nascar.com/" target="_blank">NASCAR.com</a></li>
+                  <li><a href="http://store.nascar.com/" target="_blank">NASCAR Shop</a></li>
+                </ul>
+              </li>
+			<!--  <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Forms <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Cup Picks</a></li>
+                  <li><a href="#">Xfinity Picks</a></li>
+                  <li><a href="#">Truck Picks</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+	  
+	 
+<!-- =========== Header Text with Background Image =========== -->
+	<div class="jumbotron text-center">
+		<h1> Welcome to Pitts Family Racing!</h1>
+		<p></p>
+	</div>
+	
+<!-- =========== This Week's Schedule =========== -->	
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<h3>Cup Series</h3>
+				<p>Sunday 7/30 @ 12pm PDT</p>
+				<p>Pocono Raceway</p>
+				<p>160 Laps (Stage Lengths: 50, 50, 60)</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>Xfinity Series</h3>
+				<p>Saturday 7/29 @ 12:30pm PDT</p>
+				<p>Iowa Speedway</p>
+				<p>250 Laps (Stage Lengths: 60, 60, 130)</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>Truck Series</h3>
+				<p>Saturday 7/29 @ 10am PDT</p>
+				<p>Pocono Raceway</p>
+				<p>50 Laps (Stage Lengths: 15, 15, 20)</p>
+			</div>
+		</div>
+	</div>
+	
+<!-- =========== Playoff Standings =========== -->	
+<div class="playoff-standings-tables">
+	
+<!-- =========== Cup Standings =========== -->	
+<div>
+     <div class="standings-header">
+	<h2>Cup Playoff Standings</h2>
+        <p>Top 16 drivers will make the playoffs</p>
+     </div>
+	<div class="cup-table">
+		
+		<table id="cupTable" class="table table-striped">
+			<thead>
+				<tr>
+					<th onclick="sortTable(0)">#</th>
+					<th onclick="sortTable(1)" >Driver</th>
+					<th onclick="sortTable(2)">Team</th>
+					<th onclick="sortTable(3)">Wins</th>
+					<th onclick="sortTable(4)">Season Points</th>
+					<th onclick="sortTable(5)">Playoff Points</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Martin Truex Jr. #78</td>
+					<td>Furniture Row Racing</td>
+					<td>3</td>
+					<td>780</td>
+					<td>29</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Jimmie Johnson #48</td>
+					<td>Hendrick Motorsports</td>
+					<td>3</td>
+					<td>564</td>
+					<td>16</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Kyle Larson #42</td>
+					<td>Chip-Gnassi Racing</td>
+					<td>2</td>
+					<td>732</td>
+					<td>13</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Brad Keselowski #2</td>
+					<td>Team Penske</td>
+					<td>2</td>
+					<td>608</td>
+					<td>13</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Ricky Stenhouse Jr. #17</td>
+					<td>Roush Fenway Racing</td>
+					<td>2</td>
+					<td>443</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Kevin Harvick #4</td>
+					<td>Stewart-Haas Racing</td>
+					<td>1</td>
+					<td>683</td>
+					<td>8</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Denny Hamlin #11</td>
+					<td>Joe Gibbs Racing</td>
+					<td>1</td>
+					<td>612</td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Ryan Blaney #21</td>
+					<td>Wood Brothers Racing</td>
+					<td>1</td>
+					<td>516</td>
+					<td>8</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Kurt Busch #41</td>
+					<td>Stewart-Haas Racing</td>
+					<td>1</td>
+					<td>463</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Ryan Newman #31</td>
+					<td>Richard Childress Racing</td>
+					<td>1</td>
+					<td>462</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>11</td>
+					<td>Kasey Khane #5</td>
+					<td>Hendrick Motorsports</td>
+					<td>1</td>
+					<td>383</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>12</td>
+					<td>Austin Dillon #3</td>
+					<td>Richard Childress Racing</td>
+					<td>1</td>
+					<td>379</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>13</td>
+					<td>Kyle Busch #18</td>
+					<td>Joe Gibbs Racing</td>
+					<td>0</td>
+					<td>673</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>14</td>
+					<td>Jamie McMurray #1</td>
+					<td>Chip-Gnassi Racing</td>
+					<td>0</td>
+					<td>599</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<td>15</td>
+					<td>Chase Elliott #24</td>
+					<td>Hendrick Motorsports</td>
+					<td>0</td>
+					<td>588</td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>16</td>
+					<td>Matt Kenseth #20</td>
+					<td>Joe Gibbs Racing</td>
+					<td>0</td>
+					<td>566</td>
+					<td>2</td>
+				</tr>
+                                <tr>
+					<td id="DNF">17</td>
+					<td id="DNF">Clint Bowyer #14</td>
+					<td id="DNF">Stewart-Haas Racing</td>
+					<td id="DNF">0</td>
+					<td id="DNF">533</td>
+					<td id="DNF">0</td>
+				</tr>
+                                <tr>
+					<td>18</td>
+					<td>Joey Logano #22</td>
+					<td>Team Penske</td>
+					<td>1 *</td>
+					<td>515</td>
+					<td>0</td>
+				</tr>
+                                <tr>
+					<td>19</td>
+					<td>Erik Jones #77</td>
+					<td>Furniture Row Racing</td>
+					<td>0</td>
+					<td>440</td>
+					<td>0</td>
+				</tr>
+                                <tr>
+					<td>20</td>
+					<td>Daniel Suarez #19</td>
+					<td>Joe Gibbs Racing</td>
+					<td>0</td>
+					<td>434</td>
+					<td>0</td>
+				</tr>
+			</tbody>
+		</table>
+    </div>
+</div>
+</div>
+	
+<!--
+<script>	  
+function sortTable(n) {
+	var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+	table = document.getElementById("cupTable");
+	switching = true;
+	dir = "asc";
+	while (switching) {
+		switching = false;
+		rows = table.getElementsByTagName("tr");
+		for (i = 1; i < (rows.length - 1); i++) {
+			shouldSwtich = false;
+			
+			x = rows[i].getElementsByTagName("td")[n];
+			y = rows[i + 1].getElementsByTagName("td")[n];
+			if (dir == "asc") {
+				if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+					shouldSwitch = true;
+					break;
+				}
+			} else if (dir == "desc") {
+				if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+					shouldSwitch = true;
+					break;
+				}
+			}
+		}
+		if (shouldSwitch) {
+			rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+			switching = true;
+			switchcount ++;
+		} else {
+			if (switchcount == 0 && dir == "asc") {
+				dir = "desc";
+				switching = true;
+				}
+			}
+		}
+	}
+</script>
+-->
+
+</body>
+</html>
