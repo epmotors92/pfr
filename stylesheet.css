@@ -1,0 +1,48 @@
+.jumbotron {
+	background-image: url('https://drive.google.com/uc?export=download&id=0BwdTcS4gpJ8PYXBDbVIxYVQzcnM');
+	background-position: 75% 75%;
+}
+
+.jumbotron.truck-title {
+	background-image: url('https://drive.google.com/uc?export=download&id=0BwdTcS4gpJ8PSU1VYkxTRkdLR0U');
+}
+
+.jumbotron.xfinity-title {
+	background-image: url('https://drive.google.com/uc?export=download&id=0BwdTcS4gpJ8PbWRNbVhNMmJpNkU');
+}
+
+.jumbotron.cup-title {
+	background-image: url('https://drive.google.com/uc?export=download&id=0BwdTcS4gpJ8PUldXNDlpelFPZTQ');
+}
+
+.navbar.navbar-default {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.playoff-standings-tables {
+	margin-top: 40px;
+}
+
+.cup-table {
+	margin: 0 auto;
+        width: 75%;
+}
+
+.standings-header {
+	text-align: center;
+        margin: 0 auto;
+        width: 100%;
+}
+
+.table.table-striped {
+	margin-top: 20px;
+}
+
+table th {
+	/* cursor: pointer; */
+}
+
+.table-striped > tbody > tr > td#DNF {
+        border-top: 2px solid red;
+}
