@@ -44,5 +44,5 @@ table th {
 }
 
 .table-striped > tbody > tr > td#DNF {
-        border-top: 2px solid red;
+        border-top: 2px solid blue;
 }
