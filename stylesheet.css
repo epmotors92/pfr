@@ -24,10 +24,10 @@
 	margin-top: 40px;
 }
 
-.cup-table {
+/* .cup-table {
 	margin: 0 auto;
         width: 75%;
-}
+} */
 
 .standings-header {
 	text-align: center;
@@ -44,5 +44,5 @@ table th {
 }
 
 .table-striped > tbody > tr > td#DNF {
-        border-top: 2px solid blue;
+        border-top: 2px solid red;
 }
