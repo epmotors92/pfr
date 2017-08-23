@@ -1,0 +1,131 @@
+html {
+        height: 100%;
+        min-height: 100%;
+}
+
+body {
+        height: auto;
+        min-height: 100%;
+        position: relative;
+        padding-bottom: 40px;
+}
+
+#navbar-text {
+        font-family: verdana;
+}
+
+.navbar.navbar-default {
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+.jumbotron {
+	background-image: url('https://drive.google.com/uc?export=download&id=0BwdTcS4gpJ8PYXBDbVIxYVQzcnM');
+	background-position: 75% 75%;
+}
+
+.jumbotron.truck-title {
+	background-image: url('https://drive.google.com/uc?export=download&id=0BwdTcS4gpJ8PSU1VYkxTRkdLR0U');
+}
+
+.jumbotron.xfinity-title {
+	background-image: url('https://drive.google.com/uc?export=download&id=0BwdTcS4gpJ8PbWRNbVhNMmJpNkU');
+}
+
+.jumbotron.cup-title {
+	background-image: url('https://drive.google.com/uc?export=download&id=0BwdTcS4gpJ8PUldXNDlpelFPZTQ');
+}
+
+div#page-subheader {
+        text-align: center;
+        padding-bottom: 15px;
+}
+
+#contact-subheader {
+        padding-bottom: 15px;
+}
+
+img#Petty-Pitts {
+        border-radius: 4px;
+        padding-top: 20px;
+        text-align: center;
+}
+
+.nascar-table {
+	margin: 0 auto;
+        /* width: 75%; */
+}
+
+.standings-header {
+	text-align: center;
+        margin: 0 auto;
+        width: 100%;
+}
+
+.table.table-striped {
+	/* margin-top: 20px; */
+}
+
+table th {
+	/* cursor: pointer; */
+}
+
+.table-striped > tbody > tr > td#clinched {
+        background-color: #dff0d8;
+}
+
+.table-striped > tbody > tr > td#DNF {
+        border-top: 2px solid red;
+}
+
+#entry-field {
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        word-wrap: normal;
+        padding: 4px 6px;
+        width: 100%;
+}
+
+textarea#entry-field {
+        resize: none;
+        margin-bottom: 0;
+}
+
+.btn.btn-default {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        outline: none;
+        border-color: #ddd;
+        border-bottom-color: #cecece;
+        background: #f4f4f4;
+        background-image: -webkit-linear-gradient(top,#f4f4f4 0,#eaeaea 100%);
+	font-family: ; 
+	font-weight: normal;  
+}
+
+.btn-default:hover {
+        background-image: -webkit-linear-gradient(top,#f4f4f4 0,#eaeaea 10%);
+}
+
+.btn-default, .btn-default:hover, .btn-default:active, .btn-default:active:focus, .btn-default:visited, .btn-default:focus { 
+        outline: none !important;
+}
+
+footer {
+        position: absolute;
+        height: 40px;
+        margin-top= -40px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #333;
+        padding: 1rem;
+}
+
+footer p {
+        color: white;
+        font-size: 0.75em;
+        font-family: arial, serif;
+        text-align: center;
+}
